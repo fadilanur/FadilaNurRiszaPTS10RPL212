@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2668EC"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:translationX="180dp"
+        android:translationY="120dp"
+        android:src="@drawable/facebook"/>
+    <EditText
+        android:id="@+id/txtemail"
+        android:translationY="250dp"
+        android:translationX="50dp"
+        android:text="Email or phone"
+        android:layout_width="300dp"
+        android:background="@drawable/costum1"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/txtpassword"
+        android:translationY="310dp"
+        android:translationX="50dp"
+        android:text="Password"
+        android:layout_width="300dp"
+        android:background="@drawable/costum1"
+        android:layout_height="40dp"/>
+    <Button
+        android:id="@+id/btnlogin"
+        android:text="Log in"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:translationX="50dp"
+        android:backgroundTint="#3F51B5"
+        android:translationY="370dp"/>
+    <TextView
+        android:textColor="@color/white"
+        android:text="Forgot Password?"
+        android:translationY="430dp"
+        android:translationX="140dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/white"
+        android:text="Sing Up for Facebook?"
+        android:translationY="670dp"
+        android:translationX="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
