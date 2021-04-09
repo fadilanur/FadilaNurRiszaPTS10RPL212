@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String email = txtemail.getText().toString();
                 String password = txtpassword.getText().toString();
-                if (email.equalsIgnoreCase("Fadila123@gmail.com")
-                        && password.equalsIgnoreCase("12345")){
+                if (email.equalsIgnoreCase("Fadila@gmail.com")
+                        && password.equalsIgnoreCase("Anak orang")){
                     Toast.makeText(MainActivity.this, "sukses Login", Toast.LENGTH_SHORT).show();
                     Intent move = new Intent(MainActivity.this, halamanutama.class);
                     move.putExtra("email", email);
@@ -35,5 +35,8 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    public static class Mahasiswa {
     }
 }
