@@ -28,9 +28,9 @@ public class halamanutama extends AppCompatActivity {
 
     void addData(){
         mahasiswaArrayList = new ArrayList<>();
-        mahasiswaArrayList.add(new Mahasiswa("Fadila", "1890467892873", "085741960341","Fadila@gmail.com","Rebahan:v"));
-        mahasiswaArrayList.add(new Mahasiswa("Budi", "1890467892877", "085944827290", "BudiDoremi@gmail.com", "Makan ayam"));
-        mahasiswaArrayList.add(new Mahasiswa("cak jon", "1274873597259", "087809294398", "cak jon@gmail.com", "Jual sate"));
-        mahasiswaArrayList.add (new Mahasiswa("Mput", "179849743252005" , "0859005003395", "Mput@gmail.com", "Bermain gitar"));
+        mahasiswaArrayList.add(new Mahasiswa("Fadila", "1890467892873", "085741960341","fadila@gmail.com","Memasak"));
+        mahasiswaArrayList.add(new Mahasiswa("Budi", "1890467892877", "085944827290", "budiDoremi@gmail.com", "Berenang"));
+        mahasiswaArrayList.add(new Mahasiswa("Farhan", "1274873597259", "087809294398", "farhan@gmail.com", "Lari"));
+        mahasiswaArrayList.add (new Mahasiswa("Risa", "179849743252005" , "0859005003395", "risa@gmail.com", "Bermain gitar"));
     }
 }
